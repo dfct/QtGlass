@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
 	QtGlass w;
 
 	//Remove the default tan system background from the window
-	w.setAttribute(Qt::WA_NoSystemBackground);
+	w.setAttribute(Qt::WA_TranslucentBackground);
 	
 	//Set an initial window size
 	w.setMinimumSize(800, 600);
